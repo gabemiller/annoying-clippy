@@ -1,0 +1,191 @@
+.clippy-cover {
+    position: fixed;
+    inset: 0;
+    z-index: 99990;
+    background: transparent;
+}
+
+.clippy-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    z-index: 99999;
+    top: 10px;
+    left: 10px;
+}
+
+.clippy-bubble {
+    background-color: #FFFFCD;
+    border-radius: 10px;
+    padding: 4px;
+    border: 1px solid #878676;
+    color: black;
+    width: 200px;
+    position: absolute;
+    bottom: 108px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.clippy-bubble::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 7.5px 0 7.5px;
+    border-color: #FFFFCD transparent transparent transparent;
+    position: absolute;
+    bottom: -10px;
+    left: 125px;
+}
+
+.clippy {
+    display: flex;
+    width: 124px;
+    height: 93px;
+}
+
+.clippy--animated-1 {
+    animation: animated-clippy-1 1.5s steps(27) infinite;
+}
+
+.clippy--animated-2 {
+    animation: animated-clippy-2 1.5s steps(27) infinite;
+}
+
+.clippy--animated-3 {
+    animation: animated-clippy-3 1.5s steps(27) infinite;
+}
+
+.clippy--animated-4 {
+    animation: animated-clippy-4 1.5s steps(27) infinite;
+}
+
+.clippy--animated-5 {
+    animation: animated-clippy-5 1.5s steps(27) infinite;
+}
+
+.clippy--animated-6 {
+    animation: animated-clippy-6 1.5s steps(27) infinite;
+}
+
+.clippy--animated-7 {
+    animation: animated-clippy-7 1.5s steps(27) infinite;
+}
+
+.clippy--animated-8 {
+    animation: animated-clippy-8 1.5s steps(27) infinite;
+}
+
+.clippy--animated-9 {
+    animation: animated-clippy-9 1.5s steps(27) infinite;
+}
+
+.clippy--animated-10 {
+    animation: animated-clippy-10 1.5s steps(27) infinite;
+}
+
+.clippy--animated-11 {
+    animation: animated-clippy-11 1.5s steps(27) infinite;
+}
+
+@keyframes animated-clippy-1 {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -3348px 0;
+    }
+}
+
+@keyframes animated-clippy-2 {
+    0% {
+        background-position: 0 -93px;
+    }
+    100% {
+        background-position: -3348px -93px;
+    }
+}
+
+@keyframes animated-clippy-3 {
+    0% {
+        background-position: 0 -186px;
+    }
+    100% {
+        background-position: -3348px -186px;
+    }
+}
+
+@keyframes animated-clippy-4 {
+    0% {
+        background-position: 0 -279px;
+    }
+    100% {
+        background-position: -3348px -279px;
+    }
+}
+
+@keyframes animated-clippy-5 {
+    0% {
+        background-position: 0 -372px;
+    }
+    100% {
+        background-position: -3348px -372px;
+    }
+}
+
+@keyframes animated-clippy-6 {
+    0% {
+        background-position: 0 -465px;
+    }
+    100% {
+        background-position: -3348px -465px;
+    }
+}
+
+@keyframes animated-clippy-7 {
+    0% {
+        background-position: 0 -558px;
+    }
+    100% {
+        background-position: -3348px -558px;
+    }
+}
+
+@keyframes animated-clippy-8 {
+    0% {
+        background-position: 0 -651px;
+    }
+    100% {
+        background-position: -3348px -651px;
+    }
+}
+
+@keyframes animated-clippy-9 {
+    0% {
+        background-position: 0 -744px;
+    }
+    100% {
+        background-position: -3348px -744px;
+    }
+}
+
+@keyframes animated-clippy-10 {
+    0% {
+        background-position: 0 -837px;
+    }
+    100% {
+        background-position: -3348px -837px;
+    }
+}
+
+@keyframes animated-clippy-11 {
+    0% {
+        background-position: 0 -930px;
+    }
+    100% {
+        background-position: -3348px -930px;
+    }
+}
