@@ -1,7 +1,7 @@
 {
   "name": "annoying-clippy",
-  "version": "1.0.0",
-  "description": "A short experimental chrome extension",
+  "version": "2.0.0",
+  "description": "A short experimental chrome extension on steroid",
   "main": "src/background.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

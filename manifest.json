@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Annoying Clippy Extensions",
-  "description": "A short experimental chrome extension",
-  "version": "1.0",
+  "description": "A short experimental chrome extension on steroid",
+  "version": "2.0",
   "action": {
     "default_icon": {
       "16": "src/assets/icon-16x16.png",
