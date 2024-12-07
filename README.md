@@ -1,17 +1,27 @@
 # Annoying Clippy Extension
 
 A playful Chrome extension that brings back Clippy, the notorious animated assistant, to "help" you with your tasks. 
-Clicking anywhere on the page spawns a new Clippy instance with randomized animations and sarcastic comments. 
 Perfect for nostalgia or to add a bit of chaos to your day.
 
 ---
 
 ## Features
 
-- **Clippy Pop-Ups**: Spawn animated Clippy instances at your cursor position with quirky messages.
-- **Random Sarcasm**: Clippy offers helpful (or not-so-helpful) advice from a collection of witty quotes.
-- **Dynamic Animations**: Each Clippy appears with a randomly assigned animation.
+- **Random Sarcasm**: Clippy offers helpful (or not-so-helpful) advice with a power of an AI.
 - **Customizable Assets**: Easily swap out Clippy's sprite or update the message list.
+
+---
+
+## Pre-Requirements
+
+Before starting, please make sure you have the following:
+
+- An OpenAI token: this will be required for proper functioning of the application. You can request one from the [OpenAI website](https://openai.com/).
+- After obtaining the token, it's necessary to set this token in the `clippy.js` file:
+
+```javascript
+ const API_KEY = '<OPEN_AI_API_KEY>'
+```
 
 ---
 
@@ -27,9 +37,9 @@ Perfect for nostalgia or to add a bit of chaos to your day.
 
 ## Usage
 
-1. Click anywhere on a webpage to spawn Clippy at the clicked location.
-2. Each Clippy displays a randomized message and animation.
-3. Refresh the page or click more to create chaos.
+1. Click anywhere on a webpage (buttons, links).
+2. Clippy displays a randomized message.
+3. Refresh the page or click more to create funny moments.
 
 ---
 
@@ -52,8 +62,7 @@ Defines Clippy's styles, including animations and positioning.
 
 ## How It Works
 
-1. **Event Listener**: A `click` event listener on the `document.body` triggers Clippy's creation.
-2. **Randomized Messages**: Clippy's messages are selected from a predefined array of sarcastic quotes.
-3. **Dynamic Animations**: Each Clippy is assigned one of 11 animation classes for variety.
+1. **Event Listener**: A `click` event listener on the `document.body` triggers Clippy's talking.
+2. **Randomized Messages**: Clippy's messages are AI powered.
 4. **Sprites**: The `clippy-sprite.png` asset is dynamically loaded using `chrome.runtime.getURL()`.
 
